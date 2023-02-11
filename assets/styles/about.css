@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main_background: rgb(214, 214, 214);
+    --header-color: rgb(54, 54, 54);
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 100vw;
+}
+
+/* HEADER */
+
+header {
+    background-color: rgb(54, 54, 54);
+}
+
+.header-title {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.header-title a {
+    text-decoration: none;
+    color: white
+}
+
+.navbar-elements {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 125%;
+}
+
+.navbar-element {
+    padding: 5px 0px 5px 10px;
+}
+
+.navbar-element a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+}
+
+.navbar-element a:hover {
+    border-radius: 3px;
+    background-color: rgb(194, 194, 194);
+    color: black;
+}
+
+.navbar-element a:active {
+    background-color: white;
+}
+
+/* MAIN */
+
+main {
+    background-color: var(--main_background);
+    min-height: 78.4vh;
+}
+
+.main-title {
+    padding: 20px;
+}
+
+.main-hr {
+    width: 98%;
+}
+
+.contenedor-hr {
+    display: flex;
+    justify-content: center;
+}
+
+.main-section {
+    display: flex;
+    padding: 30px;
+}
+
+.main-logo-container {
+    width: 200px;
+    min-width: 200px;
+}
+
+.main-logo-container img {
+    width: 100%;
+    border-radius: 2px;
+}
+
+.main-info-content {
+    margin: 0 20px 0 30px;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
+
+.footer-info {
+    padding: 12px 10px 12px 10px;
+    text-align: center;
+}
