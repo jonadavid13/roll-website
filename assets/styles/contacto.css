@@ -92,6 +92,55 @@ header {
     background-color: white;
 }
 
+/* MAIN */
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+
+.cards-container .contactos-card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 200px;
+    padding: 30px 20px 25px;
+    margin: 25px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.img-card {
+    background-color: white;
+    width: 80%;
+}
+
+.card-title {
+    margin: 15px 0;
+}
+
+.card-button {
+    height: 30px;
+    background-color: rgb(36, 127, 245);
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    border-radius: 3px;
+}
+
+.card-button .button-link {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+
+.card-button:hover {
+    background-color: rgb(15, 79, 199);
+    transition: 0.2s;
+}
+
 /* FOOTER */
 
 footer {
